@@ -12,7 +12,7 @@ export default function Timer({ setStop, questionNumb }) {
   }, [setStop, timer]);
 
   useEffect(() => {
-    setTimer(4500);
+    setTimer(45);
   }, [questionNumb]);
 
   return timer;
